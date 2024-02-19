@@ -1,0 +1,129 @@
+.body {
+    font-family: "Roboto";
+}
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+.title{
+    font-size: 34px;
+    font-weight: 700;
+}
+.text{
+    font-size: 18px;
+    color: #070707;
+    font-weight: 400;
+}
+.header {
+    padding: 35px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #828282;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828282;
+    font-weight: bold;
+}
+.header__item {
+    transition: 1s;
+}
+.header__item:hover{
+    color: #070707;
+    font-size: 20px;
+}
+.home {
+    padding: 45px 0 0 0;
+    margin: 0 0 105px 0;
+}
+.home__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0 30px 0;
+}
+.home__name {
+    font-size: 47px;
+    font-weight: bold;
+}
+.home__language {
+    transform: translate(15px, -25px) rotate(270deg);
+    font-weight: bold;
+    color: #828282;
+}
+.about {
+    background-color: #f6f6f6;
+    padding: 120px 0 105px 0;
+}
+.about__head {
+    margin: 0 0 20px 0;
+}
+.about__item {
+    margin: 0 0 30px 0;
+}
+.skills {
+    padding: 90px 0 0 0;
+    margin: 0 0 110px 0;
+}
+.skills__head {
+    margin: 0 0 70px 0;
+}
+.skills__text {
+    margin: 0 0 175px 0;
+}
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+}
+.skills__item img{
+    margin: 0 0 25px 0;
+}
+.portfolio {
+    padding: 110px 0 0 0;
+    background-color: #f6f6f6;
+    margin: 0 0 115px 0;
+}
+.portfolio__head{
+    margin: 0 0 50px 0;
+}
+.portfolio__item img{
+    margin: 0 0 45px 0;
+}
+.portfolio__item p{
+    padding: 0 0 100px 0;
+}
+.contacts {
+    padding: 0 0 125px 0;
+}
+.contacts__name {
+    margin: 0 0 20px 0;
+}
+.contacts__text {
+    margin: 0 0 30px 0;
+}
+.contacts__send-message {
+    font-weight: 700;
+    margin: 0 0 85px 0;
+    background-color: #070707;
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.contacts__send-message:hover{
+    font-size: 18px;
+}
+.contacts__link{
+    margin: 0 0 45px 0;
+}
+.contacts__link a{
+    margin: 0 60px 45px 0;
+}
+.contacts__link a:last-child{
+    margin: 0 0 0 0;
+}
+.contacts__footer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #828282;
+}
